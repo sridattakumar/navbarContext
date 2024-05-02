@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.about-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.bg-dark {
+  background-color: #000000;
+}
+.bg-light {
+  background-color: #ffffff;
+}
+.about-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-image {
+  height: 124px;
+}
+.about-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.text-dark {
+  color: #1e293b;
+}
+.text-light {
+  color: #ffffff;
+}
